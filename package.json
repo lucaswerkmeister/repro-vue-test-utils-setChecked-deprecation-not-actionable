@@ -1,17 +1,22 @@
 {
-	"name": "repro-vue-test-utils-setchecked-deprecation-not-actionable",
-	"version": "1.0.0",
-	"description": "Reproducer for an issue report to vue-test-utils that the deprecation warning for setChecked() is not actionable",
-	"main": "index.spec.js",
-	"scripts": {
-		"test": "jest"
-	},
-	"author": "Lucas Werkmeister",
-	"license": "ISC",
-	"dependencies": {
-		"@vue/test-utils": "^1.0.0",
-		"jest": "^26.0.1",
-		"vue": "^2.6.11",
-		"vue-template-compiler": "^2.6.11"
-	}
+  "name": "repro-vue-test-utils-setchecked-deprecation-not-actionable",
+  "version": "1.0.0",
+  "description": "Reproducer for an issue report to vue-test-utils that the deprecation warning for setChecked() is not actionable",
+  "main": "index.spec.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Lucas Werkmeister",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/test-utils": "^1.0.0",
+    "jest": "^26.0.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaswerkmeister/repro-vue-test-utils-setChecked-deprecation-not-actionable.git"
+  },
+  "homepage": "https://github.com/vuejs/vue-test-utils/issues/1531"
 }
